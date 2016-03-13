@@ -11,4 +11,4 @@
       (throw (Exception. (format "File already exists: %s" filename)))
       (with-open [w (io/writer filename :encoding encoding)]
         (.write w (format "BagIt-Version: %s\n" rammingen.core/bagit-version))
-        (.write w (format "Tag-File-Character-Encoding: %s" encoding))))))
+        (.write w (format "Tag-File-Character-Encoding: %s\n" encoding))))))
