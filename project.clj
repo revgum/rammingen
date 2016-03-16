@@ -3,4 +3,5 @@
   :url "https://github.com/revgum/rammingen"
   :license {:name "MIT"
             :url "http://mit-license.org/"}
-  :dependencies [[org.clojure/clojure "1.8.0"]])
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [digest "1.4.4"]])
